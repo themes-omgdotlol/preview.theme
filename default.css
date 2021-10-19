@@ -1,0 +1,93 @@
+/* 
+Copyright (c) 2021 Matse Van Horebeek. All rights reserved.
+
+Author: Matse Van Horebeek (@matsevh)
+Designer Version: Beta
+Description: Create your own custom profile design with the designer tool
+*/
+
+:root {
+  --background-color: #f2f3f7;
+  --main-background-color: #fff;
+  --main-border-radius: 10px;
+  --picture-border-radius: 10%;
+  --font: "Segoe UI";
+  --title-color: #000;
+  --details-color: #000;
+  --details-icon-color: #000;
+  --pronouns-color: #000;
+  --bio-color: #000;
+  --link-color: #000;
+  --link-hover-color: #000;
+  --verification-badge-color: #1da1f2;
+  --verification-badge-hover-color: #1989ce;
+  --link-icon-color: #000;
+  --link-icon-hover-color: #1989ce;
+
+  --text-align: left;
+  --footer-state: visible;
+}
+
+body {
+  background: var(--background-color);
+}
+
+main {
+  background-color: var(--main-background-color);
+  border-radius: var(--main-border-radius);
+}
+
+#profile-picture {
+  border-radius: var(--picture-border-radius);
+}
+
+#name {
+  color: var(--title-color);
+}
+
+.fa-badge-check {
+  color: var(--verification-badge-color) !important;
+}
+
+.fa-badge-check:hover {
+  color: var(--verification-badge-hover-color) !important;
+}
+
+#pronouns {
+  color: var(--pronouns-color);
+}
+
+#details > .fas {
+  color: var(--details-color);
+}
+
+#details > .fas {
+  color: var(--details-icon-color);
+}
+
+#bio {
+  text-align: var(--text-align);
+  color: var(--bio-color);
+}
+
+a {
+  color: var(--link-color) !important;
+}
+
+a:hover {
+  color: var(--link-hover-color) !important;
+  text-decoration: underline;
+  text-decoration-color: var(--link-hover-color);
+}
+
+.fa-li {
+  color: var(--link-icon-color) !important;
+}
+
+a:hover > .fa-li {
+  color: var(--link-icon-hover-color) !important;
+}
+
+#footer {
+  visibility: var(--footer-state);
+}

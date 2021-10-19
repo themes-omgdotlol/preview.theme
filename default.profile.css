@@ -1,0 +1,192 @@
+@import url("https://omg.lol/meta/css/font-awesome/css/all.css?v=2021-09-03_a");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.2em;
+  margin: 0 !important;
+  padding: 2em;
+  font-family: "Se", sans-serif;
+  font-weight: 300;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100% !important;
+  overflow-wrap: break-word;
+}
+
+main {
+  display: block !important;
+  max-width: 30em !important;
+  border-radius: 1em !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 2em !important;
+}
+
+h1 {
+  margin: 0 !important;
+}
+
+#profile-items {
+  /*border-top: 1px solid #666;*/
+  padding: 0.5em 0 0 0 !important;
+  margin: 1.5em 0 0 0 !important;
+}
+
+#profile-items :is(h1, h2, h3, h4, h5, h6) {
+  text-align: left !important;
+  margin: 0;
+}
+
+#profile-items h1 {
+  font-size: 1.2em !important;
+}
+#profile-items h2 {
+  font-size: 1.2em !important;
+}
+#profile-items h3 {
+  font-size: 1.2em !important;
+}
+#profile-items h4 {
+  font-size: 1.1em !important;
+}
+#profile-items h5 {
+  font-size: 1.1em !important;
+}
+#profile-items h6 {
+  font-size: 1.1em !important;
+}
+
+#profile-picture-container {
+  margin: auto !important;
+  color: #555;
+  margin-bottom: 1em !important;
+}
+
+#profile-picture {
+  border-radius: 0.25em !important;
+  height: 8.7em !important;
+}
+
+#pronouns {
+  margin: 0 !important;
+  font-weight: 400 !important;
+  color: #666;
+}
+
+#pronouns a:link,
+#pronouns a:visited,
+#pronouns a:hover,
+#pronouns a:active {
+  color: #666;
+}
+
+#details {
+  margin: 1em 0 !important;
+}
+
+#location {
+  display: inline-block !important;
+}
+
+#occupation {
+  display: inline-block !important;
+}
+
+#location,
+#occupation {
+  margin: 0.5em !important;
+  padding: 0 0.5em !important;
+}
+
+#bio {
+  text-align: center;
+  font-size: 110% !important;
+  line-height: 140% !important;
+}
+
+#footer {
+  margin: 0;
+  margin-top: 5em !important;
+  font-size: 90% !important;
+  font-weight: 300 !important;
+  color: #555;
+}
+
+#footer a:link,
+#footer a:visited,
+#footer a:hover,
+#footer a:active {
+  color: #555;
+  text-decoration: none;
+  border: 0;
+}
+
+#footer .fa-plug {
+  transform: rotate(0deg) !important;
+  transition: all 0.3s ease !important;
+}
+
+#footer:hover .fa-plug {
+  transform: rotate(90deg) !important;
+  transition: all 0.3s ease !important;
+}
+
+ul {
+  text-align: left;
+}
+
+li {
+  line-height: 170%;
+}
+
+a:link,
+a:visited {
+  color: #000;
+  text-decoration-color: #555;
+  text-decoration: none;
+  border-bottom: 1px dotted #000;
+}
+a:hover,
+a:active {
+  color: #000;
+  text-decoration-color: #000;
+  text-decoration: none;
+}
+
+.omg-icon-li {
+  position: relative;
+}
+
+.omg-icon {
+  display: inline-block;
+  width: 1em;
+  position: absolute;
+  top: -0.1em;
+  left: -1.5em;
+}
+
+.omg-icon svg {
+  width: 100%;
+  height: 1em;
+  vertical-align: middle;
+}
+
+@media (prefers-color-scheme: dark) {
+  .omg-icon svg {
+    fill: #fff;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 1em !important;
+    padding: 1em !important;
+  }
+  main {
+    padding: 1.5em !important;
+  }
+}
