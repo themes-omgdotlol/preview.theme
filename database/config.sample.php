@@ -3,7 +3,7 @@
 $servername = 'localhost';
 $username = 'root';
 $password = '';
-$dbname = 'themes';
+$dbname = 'matvh_themes';
 
 $base_url = 'http://localhost:3000';
 ?>
